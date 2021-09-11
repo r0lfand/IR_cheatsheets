@@ -21,7 +21,7 @@ You can use SCP to download the file:
 Or just use scp client with GUI.
 
 4. ### Remove the malicious unit
-`rm -f zlyden` - remove the malicious unit file
+`rm -f <unit_file>` - remove the malicious unit file
 
 ## MITRE ATT&CK Information
 Adversaries may create or modify systemd services to repeatedly execute malicious payloads as part of persistence. The systemd service manager is commonly used for managing background daemon processes (also known as services) and other system resources. Systemd is the default initialization (init) system on many Linux distributions starting with Debian 8, Ubuntu 15.04, CentOS 7, RHEL 7, Fedora 15, and replaces legacy init systems including SysVinit and Upstart while remaining backwards compatible with the aforementioned init systems. Systemd utilizes configuration files known as service units to control how services boot and under what conditions.
