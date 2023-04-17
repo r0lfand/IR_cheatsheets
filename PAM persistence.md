@@ -23,5 +23,6 @@ The principal feature of the PAM approach is that the nature of the authenticati
 Typical module paths for RHEL derivatives are:
 - **/usr/lib/security/**
 - **/usr/lib64/security**
+
 Typical module path for Debian derivatives is:
 - **/usr/lib/x86_64/-linux-gnu/security/**
